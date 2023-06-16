@@ -29,3 +29,4 @@ The Product_details function is called with the file_name and links variables to
 **Data cleaning** is performed on the generated CSV file. The file is read into a DataFrame using pd.read_csv. Then, the image URLs are modified from base64 format to regular URLs using the base64 and requests modules. The modified DataFrame is saved as a new CSV file named "Modify.csv".
 
 The "Modify.csv" file is read into a DataFrame and stored in the df1 variable.
+**BLOG:** https://medium.com/@nassrkhan/automate-scrape-the-process-of-retrieving-product-information-from-a-webpage-python-selenium-45e60a6987e4
